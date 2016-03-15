@@ -5,6 +5,8 @@ from django.shortcuts import render, get_object_or_404
 from .forms import PostForm
 from django.shortcuts import redirect
 
+# This is because I forgot to say how far I am with the lab and need something
+# to upload a new commit.
 # Create your views here.
 # Views is the same as the Controller in the Model-Controller-View setup.
 
