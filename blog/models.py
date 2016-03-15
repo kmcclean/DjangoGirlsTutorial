@@ -4,7 +4,8 @@ from django.utils import timezone
 
 # Create your models here.
 # This holds the list of information about the user, so people who publish to the
-# website can be tracked.
+# website can be tracked. This is where information is passed between the database
+# and the views.
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length = 200)
