@@ -3,4 +3,5 @@ __pycache__
 myvenv
 db.sqlite3
 /static
-.DS_Store 
+.DS_Store
+blog/templates/blog/post_missing_user.html

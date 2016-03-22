@@ -9,6 +9,10 @@ body {
   padding-left: 15px;
 }
 
+.comment {
+    margin: 20px 0px 20px 20px;
+}
+
 /*This is the stylization provided by DjangoGirls. */
 .page-header {
     background-color: #ff9400;
